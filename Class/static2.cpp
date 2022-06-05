@@ -16,7 +16,7 @@ class Color {
 
         int GetId() {return id;}
 
-        static Color MixColors(Color a, Color b) 
+        static Color MixColors(Color a, Color b)  // private 멤버변수고 접근 가능해짐
         {
 
             return Color((a.r + b.r) / 2, (a.g + b.g) / 2,  (a.b + b.b) / 2);
